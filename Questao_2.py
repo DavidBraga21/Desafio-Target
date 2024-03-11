@@ -17,10 +17,9 @@ def verif_fibo(numero):
         return f"{numero} NÃO pertence á sequencia de Fibonacci"
     
 if __name__ == "__main__":
-        # Solicita que o usuário informe um número
+    
         numero = int(input("Informe um número: "))
         
-        # Verifica se o número fornecido está na sequência de Fibonacci e imprime a mensagem correspondente
         print(verif_fibo(numero))
 
     
